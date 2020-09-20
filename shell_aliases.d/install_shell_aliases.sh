@@ -1,6 +1,6 @@
 function install_shell_aliases() {
   if [ ! -d $HOME/projects/shell_aliases_compiler ]; then
-    git clone git@github.com:pr0d1r2/shell_aliases_compiler.git $HOME/projects/shell_aliases_compiler || return $?
+    git clone git@github.com:hash4di/shell_aliases_compiler.git $HOME/projects/shell_aliases_compiler || return $?
   else
     cd $HOME/projects/shell_aliases_compiler || return $?
     git pull || return $?

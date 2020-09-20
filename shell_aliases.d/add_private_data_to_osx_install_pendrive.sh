@@ -2,7 +2,7 @@
 # Fills up free space with encrypted image.
 #
 # Example usage:
-# add_private_data_to_osx_install_pendrive pr0d1r2
+# add_private_data_to_osx_install_pendrive hash4di
 function add_private_data_to_osx_install_pendrive() {
   local add_private_data_to_osx_install_pendrive_NAME
   local add_private_data_to_osx_install_pendrive_SIZE=`df -m "/Volumes/Install macOS Sierra" | tr -s " " | cut -f 4 -d " " | grep -v "^Available$"`
