@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# TODO:
+# setup_rubies \
 
 D_R="$(cd "$(dirname $0)" ; pwd -P)"
 source "$D_R/shell_aliases.d/run_commands.sh" || exit $?
@@ -37,7 +39,7 @@ run_commands \
   install_rsync \
   install_macvim \
   install_atom \
-  install_vs-code \
+  install_vs_code \
   install_janus \
   install_shellcheck \
   install_google_chrome_1password_support \
@@ -45,9 +47,9 @@ run_commands \
   install_firefox \
   install_keybase \
   install_terminal_notifier \
+  install_postman \
   sync_github_repositories \
   setup_brew_bundles \
-  setup_rubies \
   enforce_ruby_local_versions \
   setup_ruby_local_versions \
   setup_ruby_bundles \

@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# TODO:
+# install_hammerspoon \
+# install_an_adblocker_for_safari \
+# install_an_tracking_blocker_for_safari \
 
 D_R=$(cd "$(dirname "$0")" && pwd -P)
 # shellcheck disable=SC1090
@@ -44,10 +48,7 @@ run_commands \
   install_commandq \
   install_1password \
   install_alfred \
-  install_hammerspoon \
   install_osx_crond \
-  install_an_adblocker_for_safari \
-  install_an_tracking_blocker_for_safari \
   install_dns_internet_filter \
   install_java \
   install_trash \

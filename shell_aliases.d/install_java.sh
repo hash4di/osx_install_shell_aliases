@@ -1,3 +1,3 @@
 function install_java() {
-  brew cask install java || return $?
+  brew install java || return $?
 }
