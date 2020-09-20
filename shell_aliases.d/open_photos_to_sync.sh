@@ -1,3 +1,3 @@
 function open_photos_to_sync() {
-  open /Applications/Photos.app/ || return $?
+  open /System/Applications/Photos.app/ || return $?
 }
